@@ -1,0 +1,5 @@
+a=int(input())
+b=int(input())
+n=a//b
+r=a%b
+print('The number of students in each team is',n,'and left out is',r)

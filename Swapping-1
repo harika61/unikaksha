@@ -1,0 +1,9 @@
+a=int(input('first integer'))
+b=int(input('second integer'))
+c=a
+a=b
+b=c
+print(a)
+print(b)
+
+

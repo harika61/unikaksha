@@ -1,0 +1,5 @@
+def reverse(a):
+    reverse=a[::-1]
+    print(reverse)
+x=('c', 'y', 'f', 'u', 'n', 'o')
+reverse(x)

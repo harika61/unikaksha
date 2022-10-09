@@ -1,0 +1,11 @@
+r=int(input())
+c=int(input())
+x=int(input())
+if(x>=1 and x<=r):
+    print('Yes')
+elif(x%c==0):
+    print('Yes')
+elif(x%c==1):
+    print('Yes')
+else:
+    print('No')

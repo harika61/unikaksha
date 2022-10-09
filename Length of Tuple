@@ -1,0 +1,3 @@
+a=('c', 'y', 'f','u', 'n', 'o')
+print(a)
+print(len(a))

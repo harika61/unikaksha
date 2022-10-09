@@ -1,0 +1,10 @@
+a=str(input())
+n=int(input())
+if(a=='front' and n==1):
+    print('Left Handed')
+if(a=='rear' and n==1):
+    print('Right Handed')
+if(a=='front' and n==2):
+    print('Right Handed')
+if(a=='rear' and n==2):
+    print('Left Handed')

@@ -1,0 +1,8 @@
+x=int(input('Enter Year of Birth \n'))
+y=int(input('Enter Current Year \n'))
+if(x<y):
+    a=(y+100)-(x+100)
+    print('Your age is',a)
+else:
+    b=y+100-x
+    print('Your age is',b)

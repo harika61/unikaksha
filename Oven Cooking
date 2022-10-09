@@ -1,0 +1,12 @@
+a=int(input('Enter the number of items \n'))
+b=float(input('Enter the single item heating time \n'))
+if(a==1):
+    print('The recommended heating time is','%.2f'%b)
+if(a==2):
+    x=1.5*b
+    print('The recommended heating time is','%.2f'%x)
+if(a==3):
+    y=2*b
+    print('The recommended heating time is','%.2f'%y)
+if(a>3):
+    print('Number of items is more') 

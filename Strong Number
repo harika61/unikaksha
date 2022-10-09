@@ -1,0 +1,11 @@
+n=int(input())
+sum=0
+i=b=1
+while b<=n:
+    b*=i
+    i=i+1
+    sum=sum+b
+if(n==sum):
+    print('Strong Number')
+else:
+    print('Not a Strong Number')

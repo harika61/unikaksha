@@ -1,0 +1,13 @@
+x=int(input('Enter x \n'))
+y=int(input('Enter y \n'))
+z=int(input('Enter z \n'))
+if(x<y):
+    if(x<z):
+        print('L1 has the minimal seating capacity')
+    else:
+        print('L3 has the minimal seating capacity')
+else:
+    if(y<z):
+        print('L2 has the minimal seating capacity')
+    else:
+        print('L3 has the minimal seating capacity')
